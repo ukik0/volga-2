@@ -1510,6 +1510,13 @@ nav {
   font-size: 30px;
   line-height: 160%;
   color: #FFFFFF;
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+
+.footer__title:hover {
+  color: #2ec9e4;
 }
 
 .footer__subtitle {
