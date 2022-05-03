@@ -52,6 +52,7 @@ a:hover {
 
 ul li {
   list-style: none;
+  margin-bottom: 0 !important;
 }
 
 img {
@@ -204,6 +205,11 @@ body.locked {
   z-index: 10000;
 }
 
+.fixed__nav .navbar {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
 nav {
   background-color: #141024;
   overflow: hidden;
@@ -256,6 +262,10 @@ nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 0;
 }
 
 .menu__item {
@@ -1946,8 +1956,8 @@ nav {
 }
 
 @media (max-width: 674.98px) {
-  .rewievs {
-    margin-top: 100px;
+  .rewiews {
+    padding-top: 140px;
   }
 }
 
@@ -2051,8 +2061,8 @@ nav {
     height: 102vh;
   }
 
-  .rewievs {
-    margin-top: 200px;
+  .rewiews {
+    margin-top: 150px;
   }
 }
 
@@ -2128,10 +2138,6 @@ nav {
 
   .body-left img {
     width: 160px;
-  }
-
-  .rewievs {
-    margin-top: 250px;
   }
 }
 
@@ -2306,8 +2312,8 @@ nav {
     line-height: 25px;
   }
 
-  .rewievs {
-    margin-top: 400px;
+  .rewiews {
+    margin-top: 180px;
   }
 }
 
